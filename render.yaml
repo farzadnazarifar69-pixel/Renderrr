@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: render-xhttp-relay
+    runtime: node
+    buildCommand: ""
+    startCommand: node src/index.js
+    envVars:
+      - key: TARGET_DOMAIN
+        sync: false

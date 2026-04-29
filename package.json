@@ -1,0 +1,14 @@
+{
+  "name": "render-xhttp-relay",
+  "version": "1.0.0",
+  "description": "XHTTP relay for Xray/V2Ray on Render.com",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  }
+}
